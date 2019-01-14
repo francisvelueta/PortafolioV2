@@ -2,16 +2,14 @@
   "name": "francisvelueta",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "8.11.3",
-    "npm": "6.5.0"
-  },
+  "homepage": "https://francisvelueta.github.io/PortafolioV2/",
   "dependencies": {
     "bootstrap": "^4.2.1",
     "g": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-reveal": "^1.2.2",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.3",
     "react-scroll": "^1.7.10",
     "reactstrap": "^7.0.2"
@@ -20,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

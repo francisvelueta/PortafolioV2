@@ -18,13 +18,12 @@ class App extends Component {
           <img src={logo} className="img-fluid App-logo" alt="logo" />
           <Fade left>
             <p className=" display-4 text-danger font-weight-bold text-shaw" >
-              Frontend Developer
+              Fullstack Developer
             </p>
             </Fade>
           <p>
-            Javascript | HTML5/CSS3 | ReactJS | Firebase | NodeJS | Bootstrap | Metodología Ágil
+            ReactJS | Vue | NodeJS | MongoDB | GraphQL | Material Design | Metodología Ágil
           </p>
-
         </header>
     <Aboutme/>
     <Projects />

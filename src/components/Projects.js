@@ -11,24 +11,25 @@ const Projects = (props) => {
     <Row className="font-nice mr-0 ml-1">
     <Col sm="12" md="6"  xl="3" className="mt-5 mb-2">
     <div className="thecard">
-      <Card className="thecard__side thecard__side--front shadow " style={{ Height: '320px'}} >
-     <CardImg top width="50%" height="45%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0CrHaiDvhoVRpaWJu6PKHfm7fzNxMKfiXnuI7yB8r2iF9X4iG" alt="Card image cap" />
+      <Card className="thecard__side thecard__side--front shadow " style={{ Height: '420px'}} >
+     <CardImg top width="50%" height="250" src="https://github.com/francisvelueta/starwars-api/blob/master/client/src/assets/swapipng.png?raw=true" alt="The Force App" />
      <CardBody>
-       <CardTitle className="font-weight-bold">CloseMap</CardTitle>
-       <CardText className="font-s">CloseMap es una aplicación Web donde puedes encontrar restaurantes cerca de ti, filtrar restaurantes específicos con un ranking mayor a 3 puntos, los restaurantes abiertos y los más cercanos.</CardText>
+       <CardTitle className="font-weight-bold">The Force App</CardTitle>
+       <CardText className="font-s">Si eres fan de Star wars esta página web te va a gustar, The force app es un catálogo donde encontrarás información importante sobre las películas y naves de Star Wars, también puedes guardar tus naves favoritas y editar su información.</CardText>
      </CardBody>
    </Card>
    <div className=" thecard__side thecard__side--back">
       <Card className="shadow height-card">
       <CardBody >
       <CardTitle className="mb-4 font-weight-bold">Herramientas</CardTitle>
-      <CardText ><i className="fas fa-certificate"></i> Javascript</CardText>
-      <CardText ><i className="fas fa-certificate"></i> HTML5</CardText>
-      <CardText ><i className="fas fa-certificate"></i> Materialize</CardText>
-      <CardText ><i className="fas fa-certificate"></i> Google Api's</CardText>
-      <CardText className="mb-4"><i className="fas fa-certificate"></i> Responsive Web</CardText>
-      <Button href ="https://francisvelueta.github.io/cdmx-2018-06-bc-core-pm-foodmap/src/" className=" float-left" color="danger" size="sm">Demo</Button>{' '}
-      <Button  href ="https://github.com/francisvelueta/cdmx-2018-06-bc-core-pm-foodmap" className="float-right" size="sm">Código</Button>
+      <CardText ><i className="fas fa-certificate"></i> ReactJS</CardText>
+      <CardText ><i className="fas fa-certificate"></i> Redux</CardText>
+      <CardText ><i className="fas fa-certificate"></i> NodeJS</CardText>
+      <CardText ><i className="fas fa-certificate"></i> MongoDB</CardText>
+      <CardText ><i className="fas fa-certificate"></i> Swapi</CardText>
+      <CardText ><i className="fas fa-certificate"></i> Reactstrap</CardText>
+      <Button href ="https://theforceapp.herokuapp.com/" className=" float-left" color="danger" size="sm">Demo</Button>{' '}
+      <Button  href ="https://github.com/francisvelueta/starwars-api" className="float-right" size="sm">Código</Button>
      </CardBody>
    </Card>
       </div>

@@ -11,8 +11,8 @@ const Projects = (props) => {
     <Row className="font-nice mr-0 ml-1">
     <Col sm="12" md="6"  xl="3" className="mt-5 mb-2">
     <div className="thecard">
-      <Card className="thecard__side thecard__side--front shadow " style={{ Height: '420px'}} >
-     <CardImg top width="50%" height="250" src="https://github.com/francisvelueta/starwars-api/blob/master/client/src/assets/swapipng.png?raw=true" alt="The Force App" />
+      <Card className="thecard__side thecard__side--front shadow " style={{ Height: '820px'}} >
+     <CardImg top width="50%" height="70%" src="https://github.com/francisvelueta/starwars-api/blob/master/client/src/assets/swapipng.png?raw=true" alt="The Force App" />
      <CardBody>
        <CardTitle className="font-weight-bold">The Force App</CardTitle>
        <CardText className="font-s">Si eres fan de Star wars esta página web te va a gustar, The force app es un catálogo donde encontrarás información importante sobre las películas y naves de Star Wars, también puedes guardar tus naves favoritas y editar su información.</CardText>
@@ -22,12 +22,12 @@ const Projects = (props) => {
       <Card className="shadow height-card">
       <CardBody >
       <CardTitle className="mb-4 font-weight-bold">Herramientas</CardTitle>
-      <CardText ><i className="fas fa-certificate"></i> ReactJS</CardText>
-      <CardText ><i className="fas fa-certificate"></i> Redux</CardText>
-      <CardText ><i className="fas fa-certificate"></i> NodeJS</CardText>
-      <CardText ><i className="fas fa-certificate"></i> MongoDB</CardText>
-      <CardText ><i className="fas fa-certificate"></i> Swapi</CardText>
-      <CardText ><i className="fas fa-certificate"></i> Reactstrap</CardText>
+      <CardText ><i className="fas fa-check"></i> ReactJS</CardText>
+      <CardText ><i className="fas fa-check"></i> Redux</CardText>
+      <CardText ><i className="fas fa-check"></i> NodeJS</CardText>
+      <CardText ><i className="fas fa-check"></i> MongoDB</CardText>
+      <CardText ><i className="fas fa-check"></i> Swapi</CardText>
+      <CardText ><i className="fas fa-check"></i> Reactstrap</CardText>
       <Button href ="https://theforceapp.herokuapp.com/" className=" float-left" color="danger" size="sm">Demo</Button>{' '}
       <Button  href ="https://github.com/francisvelueta/starwars-api" className="float-right" size="sm">Código</Button>
      </CardBody>
@@ -40,9 +40,9 @@ const Projects = (props) => {
     <div className="thecard">
       <div className="thecard__side thecard__side--front">
       <Card className="thecard__side thecard__side--front shadow" >
-     <CardImg top width="60%" height="45%" src="https://firebase.google.com/images/social.png" alt="Card image cap" />
+     <CardImg top width="50%" height="70%"  src="https://firebase.google.com/images/social.png" alt="Card image cap" />
      <CardBody>
-       <CardTitle className="font-weight-bold">Registro de visitantes</CardTitle>
+       <CardTitle className="font-weight-bold">Shopping List</CardTitle>
        <CardText className="font-s">Es una aplicación Web que funciona para llevar el registro de visitantes de un WeWorking, el diseño es Mobile First(Exclusivo para tablets de cualquier modelo), envia una notificación via correo al visitado.</CardText>
      </CardBody>
    </Card>
@@ -67,9 +67,9 @@ const Projects = (props) => {
     <div className="thecard">
       <div className="thecard__side thecard__side--front">
       <Card className="thecard__side thecard__side--front shadow" >
-     <CardImg top width="100%" height="45%" src="https://cdn-images-1.medium.com/max/2000/1*_DOHv30w-0eI-Ysz5U47Yg.png" alt="Card image cap" />
+     <CardImg top wwidth="50%" height="70%" src="https://cdn-images-1.medium.com/max/2000/1*_DOHv30w-0eI-Ysz5U47Yg.png" alt="Card image cap" />
      <CardBody>
-       <CardTitle className="font-weight-bold">Social Network</CardTitle>
+       <CardTitle className="font-weight-bold">Openpay Clients</CardTitle>
        <CardText className="font-s">  Mexican Food Lovers es una red social donde puedes compartir tus recetas favoritas, así como aprender tus recetas mexicanas favoritas, su diseño es mobile firts.</CardText>
      </CardBody>
    </Card>
@@ -94,9 +94,9 @@ const Projects = (props) => {
     <div className="thecard">
       <div className="thecard__side thecard__side--front">
       <Card className="thecard__side thecard__side--front shadow">
-     <CardImg top width="60%" height="45%"  src="https://cdn-images-1.medium.com/max/1109/1*TWVs8hNCI7B7t2Y4tA-u1A.png" alt="Card image cap" />
+     <CardImg top width="50%" height="70%"   src="https://cdn-images-1.medium.com/max/1109/1*TWVs8hNCI7B7t2Y4tA-u1A.png" alt="Card image cap" />
      <CardBody>
-       <CardTitle className="font-weight-bold ">Data Dashboard</CardTitle>
+       <CardTitle className="font-weight-bold ">Burguer Queen</CardTitle>
        <CardText className="font-s">Es una página donde se lleva el monitoreo de avances de las alumnas de Laboratoria de todas las sedes, incluye gráficas de su desempeño, esta información es tomada desde un archivo JSON.</CardText>
      </CardBody>
    </Card>

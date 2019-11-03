@@ -12,25 +12,25 @@ import Contact from './components/Contact';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Navbar/>
-        <header className="App-header text-center">
-          <img src={logo} className="img-fluid App-logo" alt="logo" />
+      <div className='App'>
+        <Navbar />
+        <header className='App-header text-center'>
+          <img src={logo} className='img-fluid App-logo' alt='logo' />
           <Fade left>
-            <p className=" display-4 text-danger font-weight-bold text-shaw" >
+            <p className=' display-4 text-danger font-weight-bold text-shaw'>
               Fullstack Developer
             </p>
-            </Fade>
+          </Fade>
           <p>
-            ReactJS | Vue | NodeJS | MongoDB | GraphQL | Material Design | Metodología Ágil
+            React | Vue | Node | MongoDB | GraphQL | Material Design |
+            Metodología Ágil
           </p>
         </header>
-    <Aboutme/>
-    <Projects />
-    <Curriculum/>
-    <Contact/>
-  </div>
-
+        <Aboutme />
+        <Projects />
+        <Curriculum />
+        <Contact />
+      </div>
     );
   }
 }

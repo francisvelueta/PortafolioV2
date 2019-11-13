@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Card,
   CardImg,
@@ -7,34 +7,36 @@ import {
   CardTitle,
   Button,
   Row,
-  Col,
-} from 'reactstrap';
-import Fade from 'react-reveal/Fade';
+  Col
+} from "reactstrap";
+import Fade from "react-reveal/Fade";
 const Projects = props => {
   return (
-    <div id='projects' className='aboutme-content'>
+    <div id="projects" className="aboutme-content">
       <Fade left>
-        <h1 className='display-3'>Proyectos</h1>
+        <h1 className="ml-4 display-3">Proyectos</h1>
       </Fade>
-      <Row className='font-nice mr-0 ml-1'>
+      <Row className="font-nice mr-0 ml-1">
         <Col
-          sm='12'
-          md='6'
+          sm="12"
+          md="6"
           xl={{ size: 3, offset: 3 }}
-          className='align-self-center mt-5 mb-2'>
-          <div className='thecard'>
+          className="align-self-center mt-5 mb-2"
+        >
+          <div className="thecard">
             <Card
-              className='thecard__side thecard__side--front shadow '
-              style={{ Height: '820px' }}>
+              className="thecard__side thecard__side--front shadow "
+              style={{ Height: "820px" }}
+            >
               <CardImg
                 top
-                width='100%'
-                height='60%'
-                src='https://github.com/francisvelueta/starwars-api/blob/master/client/src/assets/swapipng.png?raw=true'
-                alt='The Force App'
+                width="100%"
+                height="70%"
+                src="https://github.com/francisvelueta/starwars-api/blob/master/client/src/assets/swapipng.png?raw=true"
+                alt="The Force App"
               />
               <CardBody>
-                <CardTitle className='font-weight-bold' tag='h4'>
+                <CardTitle className="font-weight-bold" tag="h4">
                   The Force App
                 </CardTitle>
                 <CardText>
@@ -45,41 +47,43 @@ const Projects = props => {
                 </CardText>
               </CardBody>
             </Card>
-            <div className=' thecard__side thecard__side--back'>
-              <Card className='shadow height-card'>
+            <div className=" thecard__side thecard__side--back">
+              <Card className="shadow height-card">
                 <CardBody>
-                  <CardTitle className='mb-5 font-weight-bold' tag='h2'>
+                  <CardTitle className="mb-5 font-weight-bold" tag="h2">
                     Herramientas
                   </CardTitle>
-                  <CardText tag='h3' className='mt-4'>
-                    <i className='fas fa-check'></i> React
+                  <CardText tag="h3" className="mt-4">
+                    <i className="fas fa-check"></i> React
                   </CardText>
-                  <CardText tag='h3'>
-                    <i className='fas fa-check'></i> Redux
+                  <CardText tag="h3">
+                    <i className="fas fa-check"></i> Redux
                   </CardText>
-                  <CardText tag='h3'>
-                    <i className='fas fa-check'></i> Node
+                  <CardText tag="h3">
+                    <i className="fas fa-check"></i> Node
                   </CardText>
-                  <CardText tag='h3'>
-                    <i className='fas fa-check'></i> MongoDB
+                  <CardText tag="h3">
+                    <i className="fas fa-check"></i> MongoDB
                   </CardText>
-                  <CardText tag='h3'>
-                    <i className='fas fa-check'></i> Swapi
+                  <CardText tag="h3">
+                    <i className="fas fa-check"></i> Swapi
                   </CardText>
-                  <CardText className='mb-5' tag='h3'>
-                    <i className='fas fa-check'></i> Reactstrap
+                  <CardText className="mb-5" tag="h3">
+                    <i className="fas fa-check"></i> Reactstrap
                   </CardText>
                   <Button
-                    href='https://theforceapp.herokuapp.com/'
-                    className='mt-5 float-left'
-                    color='danger'
-                    size='lg'>
+                    href="https://theforceapp.herokuapp.com/"
+                    className="mt-5 float-left"
+                    color="danger"
+                    size="lg"
+                  >
                     Demo
-                  </Button>{' '}
+                  </Button>{" "}
                   <Button
-                    href='https://github.com/francisvelueta/starwars-api'
-                    className='mt-5 float-right'
-                    size='lg'>
+                    href="https://github.com/francisvelueta/starwars-api"
+                    className="mt-5 float-right"
+                    size="lg"
+                  >
                     Código
                   </Button>
                 </CardBody>
@@ -87,19 +91,19 @@ const Projects = props => {
             </div>
           </div>
         </Col>
-        <Col sm='12' md='6' lg='6' xl='3' className='mt-5 mb-2'>
-          <div className='thecard'>
-            <div className='thecard__side thecard__side--front'>
-              <Card className='thecard__side thecard__side--front shadow'>
+        <Col sm="12" md="6" lg="6" xl="3" className="mt-5 mb-2">
+          <div className="thecard">
+            <div className="thecard__side thecard__side--front">
+              <Card className="thecard__side thecard__side--front shadow">
                 <CardImg
                   top
-                  width='100%'
-                  height='60%'
-                  src='https://user-images.githubusercontent.com/2570297/68066870-90a5eb00-fd04-11e9-905c-49032ee81c0a.png'
-                  alt='shoping list'
+                  width="100%"
+                  height="70%"
+                  src="https://user-images.githubusercontent.com/2570297/68066870-90a5eb00-fd04-11e9-905c-49032ee81c0a.png"
+                  alt="shoping list"
                 />
                 <CardBody>
-                  <CardTitle className='font-weight-bold' tag='h4'>
+                  <CardTitle className="font-weight-bold" tag="h4">
                     Shopping List
                   </CardTitle>
                   <CardText>
@@ -110,44 +114,46 @@ const Projects = props => {
                 </CardBody>
               </Card>
             </div>
-            <div className='thecard__side thecard__side--back'>
-              <Card className='shadow height-card'>
+            <div className="thecard__side thecard__side--back">
+              <Card className="shadow height-card">
                 <CardBody>
-                  <CardTitle className='mb-4 font-weight-bold' tag='h2'>
+                  <CardTitle className="mb-4 font-weight-bold" tag="h2">
                     Herramientas
                   </CardTitle>
-                  <CardText tag='h3' className='mt-2'>
-                    <i className='fas fa-check'></i> Node
+                  <CardText tag="h3" className="mt-2">
+                    <i className="fas fa-check"></i> Node
                   </CardText>
-                  <CardText tag='h3'>
-                    <i className='fas fa-check'></i> React
+                  <CardText tag="h3">
+                    <i className="fas fa-check"></i> React
                   </CardText>
-                  <CardText tag='h3'>
-                    <i className='fas fa-check'></i> Redux
+                  <CardText tag="h3">
+                    <i className="fas fa-check"></i> Redux
                   </CardText>
-                  <CardText tag='h3'>
-                    <i className='fas fa-check'></i> Axios
+                  <CardText tag="h3">
+                    <i className="fas fa-check"></i> Axios
                   </CardText>
-                  <CardText tag='h3'>
-                    <i className='fas fa-check'></i> MongoDB
+                  <CardText tag="h3">
+                    <i className="fas fa-check"></i> MongoDB
                   </CardText>
-                  <CardText tag='h3'>
-                    <i className='fas fa-check'></i> Express
+                  <CardText tag="h3">
+                    <i className="fas fa-check"></i> Express
                   </CardText>
-                  <CardText className='mb-3' tag='h3'>
-                    <i className='fas fa-check'></i> Bootstrap
+                  <CardText className="mb-3" tag="h3">
+                    <i className="fas fa-check"></i> Bootstrap
                   </CardText>
                   <Button
-                    href='https://blooming-castle-41260.herokuapp.com/'
-                    className='mt-5 float-left'
-                    color='danger'
-                    size='lg'>
+                    href="https://blooming-castle-41260.herokuapp.com/"
+                    className="mt-5 float-left"
+                    color="danger"
+                    size="lg"
+                  >
                     Demo
-                  </Button>{' '}
+                  </Button>{" "}
                   <Button
-                    href='https://github.com/francisvelueta/ShoppingList'
-                    className='mt-5 float-right'
-                    size='lg'>
+                    href="https://github.com/francisvelueta/ShoppingList"
+                    className="mt-5 float-right"
+                    size="lg"
+                  >
                     Código
                   </Button>
                 </CardBody>
@@ -156,20 +162,20 @@ const Projects = props => {
           </div>
         </Col>
       </Row>
-      <Row className='font-nice mr-0 ml-1'>
-        <Col sm='12' md='6' xl={{ size: 3, offset: 3 }} className='mt-5 mb-2'>
-          <div className='thecard'>
-            <div className='thecard__side thecard__side--front'>
-              <Card className='thecard__side thecard__side--front shadow'>
+      <Row className="font-nice mr-0 ml-1">
+        <Col sm="12" md="6" xl={{ size: 3, offset: 3 }} className="mt-5 mb-2">
+          <div className="thecard">
+            <div className="thecard__side thecard__side--front">
+              <Card className="thecard__side thecard__side--front shadow">
                 <CardImg
                   top
-                  width='100%'
-                  height='60%'
-                  src='https://github.com/francisvelueta/node-openpay/blob/master/src/assets/prototype.png?raw=true'
-                  alt='openpay'
+                  width="100%"
+                  height="70%"
+                  src="https://github.com/francisvelueta/node-openpay/blob/master/src/assets/prototype.png?raw=true"
+                  alt="openpay"
                 />
                 <CardBody>
-                  <CardTitle className='font-weight-bold' tag='h4'>
+                  <CardTitle className="font-weight-bold" tag="h4">
                     Openpay Clients
                   </CardTitle>
                   <CardText>
@@ -180,38 +186,40 @@ const Projects = props => {
                 </CardBody>
               </Card>
             </div>
-            <div className='thecard__side thecard__side--back'>
-              <Card className='shadow height-card'>
+            <div className="thecard__side thecard__side--back">
+              <Card className="shadow height-card">
                 <CardBody>
-                  <CardTitle className='mb-5 font-weight-bold' tag='h2'>
+                  <CardTitle className="mb-5 font-weight-bold" tag="h2">
                     Herramientas
                   </CardTitle>
-                  <CardText tag='h3' className='mt-4'>
-                    <i className='fas fa-check'></i> Node
+                  <CardText tag="h3" className="mt-4">
+                    <i className="fas fa-check"></i> Node
                   </CardText>
-                  <CardText tag='h3'>
-                    <i className='fas fa-check'></i> Openpay Api
+                  <CardText tag="h3">
+                    <i className="fas fa-check"></i> Openpay Api
                   </CardText>
-                  <CardText tag='h3'>
-                    <i className='fas fa-check'></i> MongoDB
+                  <CardText tag="h3">
+                    <i className="fas fa-check"></i> MongoDB
                   </CardText>
-                  <CardText tag='h3'>
-                    <i className='fas fa-check'></i> Express
+                  <CardText tag="h3">
+                    <i className="fas fa-check"></i> Express
                   </CardText>
-                  <CardText className='mb-5' tag='h3'>
-                    <i className='fas fa-check'></i> Bootstrap
+                  <CardText className="mb-5" tag="h3">
+                    <i className="fas fa-check"></i> Bootstrap
                   </CardText>
                   <Button
-                    href='https://node-openpay.herokuapp.com/'
-                    className='mt-5 float-left'
-                    color='danger'
-                    size='lg'>
+                    href="https://node-openpay.herokuapp.com/"
+                    className="mt-5 float-left"
+                    color="danger"
+                    size="lg"
+                  >
                     Demo
-                  </Button>{' '}
+                  </Button>{" "}
                   <Button
-                    href='https://github.com/francisvelueta/node-openpay'
-                    className='mt-5 float-right'
-                    size='lg'>
+                    href="https://github.com/francisvelueta/node-openpay"
+                    className="mt-5 float-right"
+                    size="lg"
+                  >
                     Código
                   </Button>
                 </CardBody>
@@ -219,19 +227,19 @@ const Projects = props => {
             </div>
           </div>
         </Col>
-        <Col sm='12' md='6' xl='3' className='mt-5 mb-2'>
-          <div className='thecard'>
-            <div className='thecard__side thecard__side--front'>
-              <Card className='thecard__side thecard__side--front shadow'>
+        <Col sm="12" md="6" xl="3" className="mt-5 mb-2">
+          <div className="thecard">
+            <div className="thecard__side thecard__side--front">
+              <Card className="thecard__side thecard__side--front shadow">
                 <CardImg
                   top
-                  width='100%'
-                  height='60%'
-                  src='https://github.com/francisvelueta/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/readme-images/demo-final.jpg?raw=true'
-                  alt='Card image cap'
+                  width="100%"
+                  height="70%"
+                  src="https://github.com/francisvelueta/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/readme-images/demo-final.jpg?raw=true"
+                  alt="Card image cap"
                 />
                 <CardBody>
-                  <CardTitle className='font-weight-bold' tag='h4'>
+                  <CardTitle className="font-weight-bold" tag="h4">
                     Data Dashboard
                   </CardTitle>
                   <CardText>
@@ -243,38 +251,40 @@ const Projects = props => {
                 </CardBody>
               </Card>
             </div>
-            <div className='thecard__side thecard__side--back'>
-              <Card className='shadow height-card'>
+            <div className="thecard__side thecard__side--back">
+              <Card className="shadow height-card">
                 <CardBody>
-                  <CardTitle className='mb-5 font-weight-bold' tag='h2'>
+                  <CardTitle className="mb-5 font-weight-bold" tag="h2">
                     Herramientas
                   </CardTitle>
-                  <CardText tag='h3' className='mt-4'>
-                    <i className='fas fa-check'></i> Javascript
+                  <CardText tag="h3" className="mt-4">
+                    <i className="fas fa-check"></i> Javascript
                   </CardText>
-                  <CardText tag='h3'>
-                    <i className='fas fa-check'></i> JSON
+                  <CardText tag="h3">
+                    <i className="fas fa-check"></i> JSON
                   </CardText>
-                  <CardText tag='h3'>
-                    <i className='fas fa-check'></i> Bootstrap
+                  <CardText tag="h3">
+                    <i className="fas fa-check"></i> Bootstrap
                   </CardText>
-                  <CardText tag='h3'>
-                    <i className='fas fa-check'></i> Google Charts
+                  <CardText tag="h3">
+                    <i className="fas fa-check"></i> Google Charts
                   </CardText>
-                  <CardText className='mb-5' tag='h3'>
-                    <i className='fas fa-check'></i> Trabajo en equipo
+                  <CardText className="mb-5" tag="h3">
+                    <i className="fas fa-check"></i> Trabajo en equipo
                   </CardText>
                   <Button
-                    href='https://francisvelueta.github.io/cdmx-2018-06-bc-core-am-data-dashboard/src/'
-                    className='mt-5 float-left'
-                    color='danger'
-                    size='lg'>
+                    href="https://francisvelueta.github.io/cdmx-2018-06-bc-core-am-data-dashboard/src/"
+                    className="mt-5 float-left"
+                    color="danger"
+                    size="lg"
+                  >
                     Demo
-                  </Button>{' '}
+                  </Button>{" "}
                   <Button
-                    href='https://github.com/francisvelueta/cdmx-2018-06-bc-core-am-data-dashboard'
-                    className='mt-5 float-right'
-                    size='lg'>
+                    href="https://github.com/francisvelueta/cdmx-2018-06-bc-core-am-data-dashboard"
+                    className="mt-5 float-right"
+                    size="lg"
+                  >
                     Código
                   </Button>
                 </CardBody>
